@@ -16,13 +16,17 @@ CLI tool to remove the Worksheet Protection from an Excel file.
 ## Usage
 
 ### Build the Project from source
+
 In the project directory, run:
 
 ```bash
 dotnet build
 ```
+
 ### Run the Tool
-Once built, run the tool from the command line with two arguments: the path to the protected workbook and the desired output file path. For example:
+
+Once built, run the tool from the command line with two arguments: the path to
+the protected workbook and the desired output file path. For example:
 
 ```bash
 dotnet run -- "ProtectedWorkbook.xlsx" "UnprotectedWorkbook.xlsx"
@@ -31,6 +35,7 @@ dotnet run -- "ProtectedWorkbook.xlsx" "UnprotectedWorkbook.xlsx"
 ## Build executable
 
 ### Build the Project as Release
+
 In the project directory, run:
 
 ```bash
